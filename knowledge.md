@@ -69,7 +69,9 @@ href={{
 # Routing
 - Basic:Thư mục có file page.tsx -> sign-in: page.tsx. Sẽ tạo ra đường dẫn của webapp là /sign-in
 - Lưu ý trong thư mục phải có file page.tsx
-- Segment dynamic(Có nghĩa là linh động): (Segment là dấu ngoặc vuông [] là xuyệt qua đường dẫn của nó) [name] -> [course]: Mục đích là để lấy các params ra để xử lý một công việc gì đó ví dụ như lấy bài học từ khóa học thì mình sẽ có cấu trúc: [course]/lesson/page.tsx
+- Segment dynamic(Có nghĩa là linh động): (Segment là dấu ngoặc vuông [] là xuyệt qua đường dẫn của nó) [name] -> [course]: 
+Mục đích là để lấy các params ra để xử lý một công việc gì đó ví dụ như lấy bài học từ khóa học thì mình sẽ có 
+cấu trúc: [course]/lesson/page.tsx
 ```ts
 [course]/lesson/page.tsx
 vscode-master/lesson?slug=bai-1-tong-dsfsdf
